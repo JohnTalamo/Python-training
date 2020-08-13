@@ -1,10 +1,10 @@
-print(type(5))
-print(type(range(5)))
-
-# The range object is iterable. Which means we can iterate over it or use it in a for loop.
-
-for x in "Python":
-    print(x)
-
-for x in [1, 2, 3, 4]:
-    print(x)
+# While loops
+number = 100
+while number > 0:
+    print(number)
+    number //= 2
+# How to terminate a while loop
+command = ""
+while command != "quit":
+    command = input(">")
+    print("ECHO, command")
