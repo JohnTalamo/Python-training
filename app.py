@@ -19,8 +19,8 @@ for number in range(1, 10, 2):
 
 # For...else
 successful = True
-for number in range(1, 10, 2):
-    print("attempt", number, number * ".")
+for number in range(3):
+    print("attempt")
     if successful:
         print("Successful")
         break
