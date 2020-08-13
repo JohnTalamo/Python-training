@@ -11,3 +11,6 @@ elif "bag" > "apple" and "bag" > "cat":
 else:
     print("c")
 ##################
+
+for number in range(1, 10, 2):
+    print("attempt", number, number * ".")
