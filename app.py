@@ -24,3 +24,13 @@ for number in range(3):
     if successful:
         print("Successful")
         break
+###################
+
+successful = False
+for number in range(3):
+    print("attempt")
+    if successful:
+        print("Successful")
+        break
+else:
+    print("Attempted 3 times and failed")
