@@ -14,3 +14,10 @@ else:
 
 for number in range(1, 10, 2):
     print("attempt", number, number * ".")
+
+##################
+
+# For...else
+successful = True
+for number in range(1, 10, 2):
+    print("attempt", number, number * ".")
