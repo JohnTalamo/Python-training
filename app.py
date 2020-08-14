@@ -1,10 +1,25 @@
-# While loops
-number = 100
-while number > 0:
-    print(number)
-    number //= 2
-# How to terminate a while loop
-command = ""
-while command != "quit":
-    command = input(">")
-    print("ECHO, command")
+for number in range(3):
+    print("Check")
+for number in range(5):
+    print("test")
+for number in range(3):
+    print("Check", number + 1)
+for number in range(1, 4):
+    print("Check", number, number * ".")
+for number in range(1, 10, 2):
+    print("Check", number, number * 2)
+#######
+success = True
+for number in range(3):
+    print("Attempt")
+    if success:
+        print("Success")
+        break
+success = False
+for number in range(3):
+    print("Attempt")
+    if success:
+        print("success")
+        break
+else:
+    print("Attempted 3 times and failed")
